@@ -39,11 +39,4 @@ namespace _13._4.cs
         }
     }
 }
-                    Console.WriteLine(bottomSecond);
-                }
-            }
-        }
-    
-    }
-}
-
+ 
