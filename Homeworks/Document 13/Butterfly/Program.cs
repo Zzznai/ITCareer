@@ -10,7 +10,7 @@ namespace _13._4.cs
             string top1 = new string('*', n - 2) + "\\ /" + new string('*', n - 2);
             string top2 = new string('-', n - 2) + "\\ /" + new string('-', n - 2);
             string bottom1 = new string('*', n - 2) + "/ \\" + new string('*', n - 2);
-            string bottomSecond = new string('-', n - 2) + "/ \\" + new string('-', n - 2);
+            string bottom2 = new string('-', n - 2) + "/ \\" + new string('-', n - 2);
 
             for (int i = 0; i < n - 2; i++)
             {
@@ -33,6 +33,12 @@ namespace _13._4.cs
                 }
                 else
                 {
+                    Console.WriteLine(bottom2);
+                }
+            }
+        }
+    }
+}
                     Console.WriteLine(bottomSecond);
                 }
             }
