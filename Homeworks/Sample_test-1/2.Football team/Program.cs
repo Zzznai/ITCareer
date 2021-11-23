@@ -10,7 +10,7 @@ namespace footballteam.cs
             var shorts = tshirt - tshirt * 0.25;
             var socks = shorts - shorts * 0.8;
             var shoes = (tshirt + shorts) * 2;
-            var sum = (tshirt+shorts + socks + shoes)- (tshirt+shorts + socks + shoes) * 0.15;
+            var sum = (tshirt + shorts + socks + shoes) - (tshirt+shorts + socks + shoes) * 0.15;
             var gift=double.Parse(Console.ReadLine());
             
             if(gift-sum>0)
