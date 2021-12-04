@@ -8,7 +8,7 @@ namespace harvest.cs
         {
             int x = int.Parse(Console.ReadLine());
             double y = double.Parse(Console.ReadLine());
-            double z = double.Parse(Console.ReadLine());
+            int z = int.Parse(Console.ReadLine());
             int workers = int.Parse(Console.ReadLine());
             double wine = 0.4 * (x * y) / 2.5;
             if(wine<z)
