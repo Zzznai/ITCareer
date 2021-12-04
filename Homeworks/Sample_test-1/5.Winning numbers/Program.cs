@@ -27,7 +27,7 @@ namespace winningnumbers.cs
                 }
             }
             Console.WriteLine();
-            Console.WriteLine("Count of winner numbers:{0}",winner);
+            Console.WriteLine("Count of winner numbers: {0}",winner);
         }
     }
 }
