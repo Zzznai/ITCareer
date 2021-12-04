@@ -6,11 +6,11 @@ namespace change_tiles.cs
     {
         static void Main(string[] args)
         {
-            var n = double.Parse(Console.ReadLine()); 
+            var n = int.Parse(Console.ReadLine()); 
             var w = double.Parse(Console.ReadLine()); 
             var l = double.Parse(Console.ReadLine()); 
-            var m = double.Parse(Console.ReadLine()); 
-            var o = double.Parse(Console.ReadLine());
+            var m = int.Parse(Console.ReadLine()); 
+            var o = int.Parse(Console.ReadLine());
             var area_playground = n * n;
             var area_tile = w * l;
             var area_bench = m * o;
