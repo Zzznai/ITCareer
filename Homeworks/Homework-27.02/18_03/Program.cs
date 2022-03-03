@@ -17,10 +17,9 @@ namespace _18._03
                     if (commands == "Even")
                     {
                         foreach (var num in nums)
-                        {
+                        
                             if (num % 2 == 0)
                                 Console.Write(num + " ");
-                        }
                     }
                     else
                     {
